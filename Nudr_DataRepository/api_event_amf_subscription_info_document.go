@@ -17,7 +17,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/free5gc/openapi"
+	"github.com/Noodlesalat/openapi"
 )
 
 // Linger please

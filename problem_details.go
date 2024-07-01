@@ -3,7 +3,7 @@ package openapi
 import (
 	"net/http"
 
-	"github.com/free5gc/openapi/models"
+	"github.com/Noodlesalat/openapi/models"
 )
 
 func ProblemDetailsSystemFailure(detail string) *models.ProblemDetails {

@@ -17,7 +17,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/free5gc/openapi/models"
+	"github.com/Noodlesalat/openapi/models"
 )
 
 // Linger please

@@ -10,7 +10,7 @@
 package models_nef
 
 import (
-	"github.com/free5gc/openapi/models"
+	"github.com/Noodlesalat/openapi/models"
 )
 
 type LocationArea struct {

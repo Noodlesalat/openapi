@@ -16,9 +16,9 @@ import (
 	_neturl "net/url"
 	"strings"
 
-	"github.com/free5gc/openapi"
-	"github.com/free5gc/openapi/models"
-	"github.com/free5gc/openapi/models_nef"
+	"github.com/Noodlesalat/openapi"
+	"github.com/Noodlesalat/openapi/models"
+	"github.com/Noodlesalat/openapi/models_nef"
 )
 
 // Linger please

@@ -18,8 +18,8 @@ import (
 
 	"github.com/antihax/optional"
 
-	"github.com/free5gc/openapi"
-	"github.com/free5gc/openapi/models"
+	"github.com/Noodlesalat/openapi"
+	"github.com/Noodlesalat/openapi/models"
 )
 
 // Linger please

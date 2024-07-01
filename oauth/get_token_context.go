@@ -8,9 +8,9 @@ import (
 	"github.com/antihax/optional"
 	"golang.org/x/oauth2"
 
-	"github.com/free5gc/openapi"
-	"github.com/free5gc/openapi/Nnrf_AccessToken"
-	"github.com/free5gc/openapi/models"
+	"github.com/Noodlesalat/openapi"
+	"github.com/Noodlesalat/openapi/Nnrf_AccessToken"
+	"github.com/Noodlesalat/openapi/models"
 )
 
 var tokenMap sync.Map
