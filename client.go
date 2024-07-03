@@ -43,7 +43,6 @@ var (
 				InsecureSkipVerify: true,
 			},
 		},
-		Timeout: 1 * time.Second,
 	}
 
 	innerHTTP2CleartextClient = &http.Client{
@@ -53,7 +52,6 @@ var (
 				return net.Dial(network, addr)
 			},
 		},
-		Timeout: 1 * time.Second,
 	}
 )
 

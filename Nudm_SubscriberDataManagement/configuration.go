@@ -34,6 +34,7 @@ func NewConfiguration() *Configuration {
             Timeout: 1 * time.Second,
         },
 	}
+
 	return cfg
 }
 
