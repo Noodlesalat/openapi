@@ -29,6 +29,9 @@ func NewConfiguration() *Configuration {
 		url:           "{apiRoot}/nudm-ueau/v1",
 		defaultHeader: make(map[string]string),
 		userAgent:     "OpenAPI-Generator/1.0.0/go",
+        httpClient: &http.Client{
+            Timeout: 1 * time.Second,
+        },
 	}
 	return cfg
 }
